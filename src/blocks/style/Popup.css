@@ -1,0 +1,34 @@
+#popup{
+    display: block;
+    width: 500px;
+}
+
+.popup_content{
+    background-color: white;
+    border: 1px solid black;
+}
+
+#popup_title{
+    margin: 0;
+    padding: 5px 10px 5px 10px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#popup_date, #popup_plase, #popup_affected{
+    margin: 0;
+    padding: 5px 10px 13px 10px;
+    /* font-size: 12px; */
+}
+
+.popover_arrow{
+    display: block;
+    background-color: transparent;
+    margin: 0 auto;
+    width: 0px;
+    height: 0px;
+    border-top: 15px solid black;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
